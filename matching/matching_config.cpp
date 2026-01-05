@@ -57,3 +57,4 @@ bool save_matching_config(const std::string& path, const MatchingConfig& cfg) {
     fout << "}\n";
     return true;
 }
+//组员B：匹配算法、策略切换、权重配置、推荐解释

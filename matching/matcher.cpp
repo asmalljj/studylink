@@ -45,3 +45,4 @@ std::vector<MatchResult> recommend_users(
     if ((int)res.size() > cfg.topN) res.resize(cfg.topN);
     return res;
 }
+//组员B：匹配算法、策略切换、权重配置、推荐解释
