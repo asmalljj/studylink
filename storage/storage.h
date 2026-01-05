@@ -35,3 +35,4 @@ private:
     static std::string escape_json(const std::string& s);
     static bool parse_user_line(const std::string& line, UserRecord& out);
 };
+//组员A：JSONL 存储、读取、更新、删除、迁移

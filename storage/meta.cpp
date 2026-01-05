@@ -37,3 +37,4 @@ bool MetaStorage::save(const Meta& meta, std::string& err) {
     ofs << "{ \"version\": " << meta.version << " }\n";
     return true;
 }
+//组员A：JSONL 存储、读取、更新、删除、迁移
