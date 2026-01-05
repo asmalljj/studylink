@@ -8,3 +8,4 @@ void analytics_dashboard(
     const std::string& review_file,
     std::string& err
 );
+//组员C：运营统计分析（热门goal、成功组队排行、评分排行）
