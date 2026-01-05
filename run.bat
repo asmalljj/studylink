@@ -57,6 +57,5 @@ echo [OK] Build success!
 echo.
 echo ===== [2/2] Running =====
 echo.
-
 main.exe
 pause
