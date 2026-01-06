@@ -15,7 +15,7 @@ bool MetaStorage::load_or_init(Meta& out, std::string& err) {
 
     std::stringstream ss;
     ss << ifs.rdbuf();
-    std::string s = ss.str();//如果文件存在，把文件内容读到字符串 s 里，准备解析
+    std::string s = ss.str();//如果文件存在，把文件内容读到字符串 s 里，方便查找
 
     auto pos = s.find("\"version\":");
     if (pos == std::string::npos) {
